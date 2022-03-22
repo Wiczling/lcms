@@ -1,0 +1,31 @@
+METID,analyte identifier
+nDissSteps,maximal number of dissociation steps
+pKa_1,pKas
+pKa_2,
+pKa_3,
+pKa_4,
+pKa_5,
+pKaType_1,Acid (-1) - Base (+1) - 0 otherwise
+pKaType_2,
+pKaType_3,
+pKaType_4,
+pKaType_5,
+ChargeA_1,Number of acidic groups (anions)
+ChargeA_2,
+ChargeA_3,
+ChargeA_4,
+ChargeA_5,
+ChargeA_6,
+ChargeB_1,Number of basic groups (cations)
+ChargeB_2,
+ChargeB_3,
+ChargeB_4,
+ChargeB_5,
+ChargeB_6,
+pKaError_1,error of pKas values
+pKaError_2,
+pKaError_3,
+pKaError_4,
+pKaError_5,
+logP,logP
+LogP_error,error of logP values

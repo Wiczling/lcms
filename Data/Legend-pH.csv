@@ -1,0 +1,8 @@
+Temp,"temperature, oC"
+Mod,ACN or MeOH
+pHs,nominal pH
+pH,"1..9, buffer identifier"
+fi_0,pH at fi=0.0
+fi_25,pH at fi=0.25
+fi_50,pH at fi=0.5
+fi_80,pH at fi=0.8

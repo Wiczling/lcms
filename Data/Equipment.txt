@@ -1,0 +1,26 @@
+Column:
+XBridge-C18 column, 3 mm × 50 mm, 2.5 μm, Part No. 186003122 (Waters Ltd., Milford, MA, USA)
+
+LC/MS System:
+Agilent Technologies 1260 system (Santa Clara, CA, USA)
+6224 time of flight (TOF) mass spectrometer 
+Dual electrospray ionization source (Dual ESI) in positive polarity. 
+
+Settings:
+A drying gas (nitrogen) flow was set to 11 L/min at 350 °C. 
+The nebulizer pressure was set to 50 psi at a capillary voltage of 4000 V. 
+The skimmer, octopole voltage and fragmentor voltage were set as  65 V, 750 V and 84 V, 
+Scan mode using 50–1200 m/z range.
+The masses 121.050873, 922.009798 were followed in positive ionization mode. 
+
+Buffers:
+ammonium formate: 2.5, 3.3, 4.1, 8.9, 9.7
+ammonium acetate: 4.9, 5.8
+ammonium bicarbonate: 6.8, 10.5
+
+pH measurments:
+S220 pH-meter (Mettler Toledo, Greifensee, Switzerland)
+InLab® Routine Pro ISM electrode
+
+Software:
+The Agilent MassHunter Profinder was used to find all the matches per formula using “Batch Targeted Feature Extraction“ (containing 300 predefined mases for each analyte included in the mixture). Match tolerance of +/-20.00 ppm was assumed with the settings [Positive Ions > Charge carriers > +K > false; Positive Ions > Charge carriers > +NH4 > true]. 

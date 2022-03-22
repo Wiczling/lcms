@@ -1,0 +1,23 @@
+METID,analyte identifier
+Name,analyte name
+Mass,m/z
+Height,peak height
+RT,retention time [min]
+Area,peak area
+Score,identification score
+Ions,ions
+EXPID,1..84 experiment identifier
+td,gradient delay time [min]
+to,hold-up time [min]
+te,extra-column time [min]
+fio,initial organic modifier content
+fik,final organic modifier content
+pH,1..9 buffer identifier
+tg,gradient duration [min]
+Temp,temperature [oC]
+Mod,ACN or MeOH
+F,Flow rate [ml/min]
+pHs,nominal pH
+pHo    , Regression coefficient: pHo+alpha1*fi+alpha*fi^2
+alpha1,Regression coefficient: pHo+alpha1*fi+alpha*fi^2
+alpha2,Regression coefficient: pHo+alpha1*fi+alpha*fi^2
