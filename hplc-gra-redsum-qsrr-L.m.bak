@@ -630,8 +630,6 @@ annotation(gcf,'textbox',...
 
 h2 = findall(0,'type','axes'); set(h2,'ylim', [0 max(max(cell2mat(get(h2,'ylim'))))]); 
 
-%% Figure S8. Population predictions. Predictions represented as posterior median (line) and 5th-95th percentiles (dotted lines) for a 6 exemplary analytes. Observed retention factors are shown as dots. Predictions corresponding to future observations given only population-level parameters.
-%% Figure S10. Individual Predictions. Predictions represented as posterior median (line) and 5th-95th percentiles (dotted lines) for a 6 exemplary analytes. Observed retention factors are shown as dots. Predictions corresponding to future observations given the population-level parameters and all the retention data measured for a particular analyte.
 savefig(['Figures/All/' prediction_type Names{i} '.fig'])
 set(gcf,'paperunits','centimeters','paperposition',[0 0 16.5 18])
 print(gcf,['Figures/All/' prediction_type Names{i} '.tiff'],'-dtiff','-r300')
@@ -806,7 +804,7 @@ annotation(gcf,'textbox',...
     'LineStyle','none');
 
 h2 = findall(0,'type','axes'); set(h2,'ylim', [0 max(max(cell2mat(get(h2,'ylim'))))]); 
-% Figure S9. Limited Data Predictions. Predictions represented as posterior median (line) and 5th-95th percentiles (dotted lines) for a 6 exemplary analytes. Observed retention factors are shown as dots. Predictions corresponding to the future observations given three preliminary experiments conducted in MeOH, at 25oC for pH = 2.5, 5.8, and 10.5 and 30 min gradient.
+
 savefig(['Figures/Individual/LimDatatrObsCond' Names{i} '.fig'])
 set(gcf,'paperunits','centimeters','paperposition',[0 0 16.5 18])
 print(gcf,['Figures/Individual/LimDatatrObsCond' Names{i} '.tiff'],'-dtiff','-r300')
