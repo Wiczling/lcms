@@ -237,7 +237,7 @@ int nObs;		           // number of observations
 int npH;                   // npH;
 int analyte[nObs];	       // analyte indexes
 int pHid[nObs];
-int<lower=1> steps[nObs];   // steps for gradient retention time aproximation
+int<lower=1> steps[nObs];   // steps for gradient retention time aproimation
 vector[11] hplcparam[nObs]; // [tg, td, to, te, fio, fik, mod, pHo, alpha1, alpha2, (temp-25)/10]
 int<lower=0> mod[nObs];     // MeOH==1, ACN==2 (repeats hplcparam(:,7))
 
@@ -280,10 +280,10 @@ vector[2] alphaAHat;  // changes of pKa with org. mod for acids [MeOH, ACN]
 vector[2] alphaBHat;  // changes of pKa with org. mod for bases [MeOH, ACN]
 
 vector<lower = 0.01>[3] omega;   // between analyte variabilities (neutral forms)
-corr_matrix[3] rho1;	         // correlation matrix	 
-vector<lower = 0.01>[3] kappa;   // between analyte variabilities (diss. forms)
+corr_matrix[3] rho1;	                        // correlation matrix	 
+vector<lower = 0.01>[3] kappa;    // between analyte variabilities (diss. forms)
 vector<lower = 0.01>[2] tau;     // between analyte variabilities for acids pKa
-cholesky_factor_corr[2] L2;	     // cholesky 
+cholesky_factor_corr[2] L2;	                        // cholesky 
 real<lower = 0.01, upper = 1> omegadlogkT;  // between analyte variability for temperature
 
 // between buffer differences
@@ -293,7 +293,7 @@ vector[K] pilogkw;  // regression coefficient for logkw
 vector[K] piS1m;  // regression coefficient for S1m
 vector[K] piS1a;  // regression coefficient for S1a
 
-vector<lower = 0.01>[3] sdpi;
+vector<lower = 0.01>[3] sdpi;     // between analyte variabilities for acids pKa
 
 // residual variability
 real<lower = 0.01> msigma; // mean
